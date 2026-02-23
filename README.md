@@ -5,7 +5,7 @@ ComfyUI custom node for Trellis mesh normal postprocessing.
 ## Node
 
 - `Trellis2 - Mesh Postprocess Normals`
-- Class: `PixelArtistryTrellisMeshPostprocessNormals`
+- Class: `TamataTrellisMeshPostprocessNormals`
 - Input: `TRIMESH`
 - Output: `TRIMESH`
 

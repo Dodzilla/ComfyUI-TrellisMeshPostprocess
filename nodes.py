@@ -30,7 +30,7 @@ class _Cluster:
     count: int
 
 
-class PixelArtistryTrellisMeshPostprocessNormals:
+class TamataTrellisMeshPostprocessNormals:
     """
     Recalculate normals for duplicated/split Trellis vertices by clustering
     face normals in quantized position space.
@@ -179,9 +179,9 @@ class PixelArtistryTrellisMeshPostprocessNormals:
 
 
 NODE_CLASS_MAPPINGS = {
-    "PixelArtistryTrellisMeshPostprocessNormals": PixelArtistryTrellisMeshPostprocessNormals,
+    "TamataTrellisMeshPostprocessNormals": TamataTrellisMeshPostprocessNormals,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "PixelArtistryTrellisMeshPostprocessNormals": "Trellis2 - Mesh Postprocess Normals",
+    "TamataTrellisMeshPostprocessNormals": "Trellis2 - Mesh Postprocess Normals",
 }
